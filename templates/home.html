@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block title %} Home page {%endblock title %}
+
+{% block content %}
+
+{% load static %}
+
+<div class="bg-main position-relative" style="background: url('https://images.unsplash.com/photo-1502700807168-484a3e7889d0?auto=format&fit=crop&q=80&w=1774&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  height: 100vh; background-size: cover; background-color: rgba(0, 0, 0,0.5) ;">
+<div class="blr-main position-absolute top-0 left-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5); z-index: 0"></div>
+<div class="container header position-relative" style="z-index: 1">
+    
+    <div class="d-flex justify-content-between py-3">
+        <div class="logo h3 text-white">BrandName</div>
+        <div class="navbar d-flex gap-4">
+            <a href="" class="text-decoration-none fw-bold text-white">Home</a>
+            <a href="" class="text-decoration-none fw-bold text-white">Pricing</a>
+            <a href="" class="text-decoration-none fw-bold text-white">Product</a>
+            <a href="" class="text-decoration-none fw-bold text-white">Contact</a>
+        
+        </div>
+        <div class="header-btn">
+            <button class="btn btn btn-light bg-gradient text-dark fw-bold">Login</button>
+            <button class="btn btn btn-light bg-gradient text-dark fw-bold">Join us <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div class="bottom-text d-inline-block text-white" style="margin-top: 200px;">
+        <h4 class="mb-4 text-white">For Better Future</h4>
+        <h1 class="mb-4">Best Learning Opportunities</h1>
+        <p class="mb-4">Our goal is to make online education work for everyone</p>
+        <button class="btn btn btn-light bg-gradient text-dark fw-bold">Join us</button>
+    </div>
+</div>
+
+</div>
+
+<div class="bg-wrapper" style="background-color: #242424;">
+    <div class="statistics container d-flex justify-content-between text-white space_btw pt-80">
+        <div>
+            <h2 class="d-flex justify-content-center">15K</h2>
+            <p class="d-flex">HAPPY CUSTOMERS</p>
+        </div>
+        <div>
+            <h2 class="d-flex justify-content-center">150K</h2>
+            <p class="d-flex">MONTHLY VISITORS</p>
+        </div>
+        <div>
+            <h2 class="d-flex justify-content-center">15</h2>
+            <p class="d-flex">COUNTRIES WORLDWIDE</p>
+        </div>
+        <div>
+            <h2 class="d-flex justify-content-center">100+</h2>
+            <p class="d-flex">TOP PARTNERS</p>
+        </div>
+    </div>
+
+    <div class="client-matters container d-flex pt-80 text-white align-items-center">
+        <div class="txt-client mb-30 w-50">
+            <div class="line-title mb-30"></div>
+            <h2 class=" mb-30">Every Client Matters</h2>
+            <p class=" mb-30">Problems trying to resolve the conflict between 
+                the two major realms of Classical physics: 
+                Newtonian mechanics </p>
+            <button class="btn btn btn-light bg-gradient text-dark fw-bold d-flex align-items-center mb-30 gap-1">Learn more <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="client-grid text-black w-50">
+            <div class="client-card d-flex align-items-center justify-content-center flex-column p-3 gap-3">
+                <div class="icon-crc d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-computer" style="color: #000000;"></i>
+                </div>
+                <h5 class="">Lifetime access</h5>
+                <div class="line-grid"></div>
+                <p class="">The gradual 
+                    accumulation of 
+                    information about </p>
+            </div>
+            <div class="client-card d-flex align-items-center justify-content-center flex-column p-3 gap-3">
+                <div class="icon-crc d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-microscope" style="color: #000000;"></i>
+                </div>
+                <h5 class="">Training Courses</h5>
+                <div class="line-grid"></div>
+                <p class="">The gradual 
+                    accumulation of 
+                    information about </p>
+            </div>
+            <div class="client-card d-flex align-items-center justify-content-center flex-column p-3 gap-3 card-3">
+                <div class="icon-crc d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-graduation-cap" style="color: #000000;"></i>
+                </div>
+                <h5 class="">Expert instruction</h5>
+                <div class="line-grid"></div>
+                <p class="">The gradual 
+                    accumulation of 
+                    information about </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="courses container d-flex pt-80 text-white align-items-center text-end">
+        <div class="course-img text-black w-50">
+            <img src={% static "assets/img/bg-course.png" %} alt="">
+        </div>
+        <div class="txt-client mb-30 w-50">
+            <div class="line-title mb-30 ml-auto"></div>
+            <h2 class=" mb-30">Most Popular Courses</h2>
+            <p class=" mb-30">Problems trying to resolve the conflict between 
+                the two major realms of Classical physics: 
+                Newtonian mechanics </p>
+            <button class="btn btn btn-light bg-gradient text-dark fw-bold d-flex align-items-center mb-30 gap-1 ml-auto">Learn more <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <div class="client-matters container d-flex pt-80 text-white align-items-center">
+        <div class="txt-client mb-30 w-50">
+            <div class="line-title mb-30"></div>
+            <h2 class=" mb-30">Watch our Courses</h2>
+            <p class=" mb-30">Problems trying to resolve the conflict between 
+                the two major realms of Classical physics: 
+                Newtonian mechanics </p>
+            <button class="btn btn btn-light bg-gradient text-dark fw-bold d-flex align-items-center mb-30 gap-1">Learn more <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="client-grid text-black w-50">
+            <iframe class="videos" width="500" height="265" src="https://www.youtube.com/embed/r-98YRAF1dY?si=lDALzZxswN2VEpeH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</div>
+
+{% endblock content %}
+
