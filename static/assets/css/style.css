@@ -56,6 +56,35 @@
     justify-self: flex-start;
 }
 
-.videos{
+.test-rp{
+    background-color: red;
+}
 
+.btn-ovl{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 10px 15px;
+}
+
+.btn-ovl:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.rating{
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 8px;
+    font-size: 12px;
+    
 }
