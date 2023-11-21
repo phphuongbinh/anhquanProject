@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .txt-top{
     color: #fff;
     text-decoration: none;
@@ -156,4 +160,17 @@
 .crc-crs:hover{
     background-color: #000;
     color: #fff !important;
+}
+
+.brd-card-tcr{
+
+}
+
+.icon-tcrs i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.icon-tcrs i:hover{
+    transform: scale(1.1);
 }
