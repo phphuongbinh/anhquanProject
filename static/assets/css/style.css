@@ -3,15 +3,26 @@ html{
 }
 
 .txt-top{
+    position: relative;
     color: #fff;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
     padding-bottom: 3px;
     transition: 0.3s;
 }
 
-.txt-top:hover{
-    border-bottom: 2px solid #fff;
+.txt-top::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #fff;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.txt-top:hover::after{
+    width: 100%;
 }
 
 .btn-all{
@@ -174,3 +185,10 @@ html{
 .icon-tcrs i:hover{
     transform: scale(1.1);
 }
+
+.brd-wtm{
+    border-top: 1px solid #fff !important;
+}
+
+
+
