@@ -81,12 +81,12 @@ WSGI_APPLICATION = 'mathmetic_sol.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'URL': 'postgres://postgres:5GgE43D-dg1B21-4BBD-B1eB1Ef-C-f-@roundhouse.proxy.rlwy.net:41258/railway',
+        'URL': 'postgresql://postgres:3EDffeB31d2aC*cEAE3aE55BdC6FG21G@postgres.railway.internal:5432/railway',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '5GgE43D-dg1B21-4BBD-B1eB1Ef-C-f-',
-        'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': 41258,
+        'PASSWORD': '3EDffeB31d2aC*cEAE3aE55BdC6FG21G',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': 16216,
     }
 }
 
